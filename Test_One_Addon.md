@@ -37,7 +37,7 @@ Ready state, the OS swaps one of the blocked processes out on to disk into a sus
  1. The process is not immediately available for execution.
  2. The process may or may not be waiting on an event. If it is, this blocked condition is independent of the suspend condition, and      occurrence of the blocking event does not enable the process to be executed.
  3. The process was placed in a suspended state by an agent; either itself, a parent process, or the operating system, for the purpose of preventing its execution.
- 4.The process may not be removed from this state until the agent explicitly orders the removal.
+ 4. The process may not be removed from this state until the agent explicitly orders the removal.
  
 ### 7.List three general categories of information in a process control block.
  1. Process identification.
